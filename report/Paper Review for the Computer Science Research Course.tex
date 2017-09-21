@@ -1,0 +1,67 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\documentclass{article}
+\usepackage{setspace, enumitem,titlesec}
+\usepackage{calc}
+			% Activate to display a given date or no date
+\usepackage{mathtools}
+\usepackage{mathrsfs }
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{fancybox}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+%\usepackage{algpseudocode}
+\begin{document}
+%\renewcommand{\thepseudonum}{\roman{pseudonum}}
+\renewcommand\labelenumi{(\theenumi)}
+%vector
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\title {Paper Review for the Computer Science Research Course and the Second Exam }
+%\author{jim.morris.shen@gmail.com}
+%\author{The Graduate Center, City University of New York}
+\author{Xiaoke(Jimmy) Shen}
+\maketitle
+%\textbf{Due Mar 1st 11:59 pm. 10 points for each exercise and 20 points for the extra credit exercise }\\
+\section{Introduction}
+
+This paper review report is provided based on the requirement of the computer science research course provided by the Graduate Center of the City University of New York during the 2017 Fall Semester. The main objective of this course is helping the PHD candidates to prepare their second exam and identify their thesis topic as early as possible\cite{ji2017}. \\
+In this report the papers related to the object classification, object detection and object semantic segmentation for the 2D and 3D objects will be discussed. As most of the state of the art algorithms used for those tasks are based on the deep convolutional neural networks, the important papers related to the deep neural networks will also be discussed in this article.\\
+
+The structure of this article is described bellow: The papers related to the theory part of the deep learning will be discussed in the second session. In the third session, the papers in the 2D object classification will be discussed. In session 4, the 2D object detection papers will be studied. At the same time, an interesting and more challenge related to the 2D image procession or computer vision will be discussed in session 5 which is the 2D object semantic segmentation. In the rest part of this article, the similar tasks in 3D will be discussed as the final goal of this paper review is finding some possible approaches to improve the current 3D computer vision algorithms based on the state of the are 2D computer vision algorithms.\\
+
+\section{Deep Learning Theory}
+Law of large number is one of the most wonderful law in this world(another one is  from my personal's point of view). It shows us that after we get enough repeat observation or sampling , we can have some insight about the object we are observing. The theory will not be proved here as I am not from mathematics department. However, the simulation will be done here to demo the basic idea about the law of large number.\\
+%\begin{figure}[H]
+  %\begin{center}
+    %  \includegraphics[scale=0.8]{law_of_large_number.png}
+%\end{center}
+%\caption{An illustration of the law of large numbers by using a fair coin to do the flipping experiments.}
+ %\label {fig:2}
+ %\end{figure}
+
+ \begin{thebibliography}{56}
+
+\bibitem{ji2017}
+  Ping Ji,
+  \textit{Syllabus of the Computer Science Research at CUNY Fall 2017},
+  The Graduate Center, the City University of New York,
+  2017.
+
+
+%\bibitem{lamport94}
+  %Leslie Lamport,
+  %\textit{\LaTeX: a document preparation system},
+  %Addison Wesley, Massachusetts,
+  %2nd edition,
+  %1994.
+
+\end{thebibliography}
+  
+ \end{document}
