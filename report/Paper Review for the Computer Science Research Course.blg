@@ -1,49 +1,57 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Paper Review for the Computer Science Research Course.aux
+White space in argument---line 17 of file Paper Review for the Computer Science Research Course.aux
+ : \citation{who
+ :               invented backpropagation?}
+I'm skipping whatever remains of this command
 The style file: ieeetr.bst
 Database file #1: jimmy_shen.bib
+I was expecting a `,' or a `}'---line 275 of file jimmy_shen.bib
+ : @misc{who 
+ :           invented backpropagation?, url={http://people.idsia.ch/~juergen/who-invented-backpropagation.html}, journal={Who Invented Backpropagation?}}
+I'm skipping whatever remains of this entry
 Warning--empty journal in ji2017
 Warning--empty journal in csaji2001
-You've used 13 entries,
+You've used 17 entries,
             1876 wiz_defined-function locations,
-            562 strings with 6292 characters,
-and the built_in function-call counts, 3192 in all, are:
-= -- 277
-> -- 161
+            588 strings with 7039 characters,
+and the built_in function-call counts, 4320 in all, are:
+= -- 373
+> -- 228
 < -- 0
-+ -- 58
-- -- 45
-* -- 241
-:= -- 491
-add.period$ -- 13
-call.type$ -- 13
-change.case$ -- 13
++ -- 82
+- -- 65
+* -- 333
+:= -- 662
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 168
-empty$ -- 312
-format.name$ -- 45
-if$ -- 754
+cite$ -- 19
+duplicate$ -- 223
+empty$ -- 412
+format.name$ -- 65
+if$ -- 1018
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 13
-newline$ -- 42
-num.names$ -- 17
-pop$ -- 51
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 54
+num.names$ -- 21
+pop$ -- 65
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 81
+skip$ -- 113
 stack$ -- 0
-substring$ -- 152
-swap$ -- 51
+substring$ -- 215
+swap$ -- 71
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 28
-width$ -- 15
-write$ -- 120
-(There were 2 warnings)
+while$ -- 37
+width$ -- 19
+write$ -- 157
+(There were 2 error messages)
