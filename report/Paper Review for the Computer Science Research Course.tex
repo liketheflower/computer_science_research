@@ -17,6 +17,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
+\usepackage{cite}
 %\usepackage{algpseudocode}
 \begin{document}
 %\renewcommand{\thepseudonum}{\roman{pseudonum}}
@@ -38,47 +39,20 @@ The structure of this article is described bellow: The papers related to the the
 
 \section{Deep Learning Theory}
 \subsection{Approximation with Artificial Neural Networks \cite{csaji2001}}
-The universal approximation theorem claims \cite{csaji2001}  that the standard multilayer feed-forward networks with a single hidden layer that contains finite number of hidden neurons, and with arbitrary activation function are universal approximators in $C(R^m)$. Kurt Hornik (1991) \cite{hornik1991} showed that it is not the specific choice of the activation function, but rather the multilayer feedforward architecture itself which gives neural networks the potential of being universal approximators.
+In order to build the mathematical theory of the artificial neural networks, several papers are published in the 20 century. In this paper one main contribution is the universal approximation theorem with proof. The universal approximation theorem claims \cite{csaji2001}  that the standard multilayer feed-forward networks with a single hidden layer that contains finite number of hidden neurons, and with arbitrary activation function are universal approximators in $C(R^m)$.  The universal approximation theorem is one of the important theoretical support for the artificial neural networks. However, at that time as the huge size labeled data sets are not available, the updated algorithms haven't been invented and also the limited computation power, these ideas can not be verified.
+
 
 \subsection{Approximation Capabilities of Multilayer Feedforward Networks \cite{hornik1991} }
 
-%\begin{figure}[H]
-  %\begin{center}
-    %  \includegraphics[scale=0.8]{law_of_large_number.png}
-%\end{center}
-%\caption{An illustration of the law of large numbers by using a fair coin to do the flipping experiments.}
- %\label {fig:2}
- %\end{figure}
-
- \begin{thebibliography}{56}
-
-\bibitem{ji2017}
-  Ping Ji,
-  \textit{Syllabus of the Computer Science Research at CUNY Fall 2017}, 
-  The Graduate Center, the City University of New York, 
-  2017.
-
-\bibitem{csaji2001}
-Balázs Csanád Csáji ,
- \textit{Approximation with Artificial Neural Networks},
- Faculty of Sciences, Eötvös Loránd University,Hungary,
- 2001.
-
-\bibitem{hornik1991}
-  Kurt Hornik,
-  \textit{Approximation Capabilities of Multilayer Feedforward Networks},
-  Neural Networks,
-  vol. 4, 
-  1991.
+The unique value of the Kurt Hornik (1991) \cite{hornik1991} paper is it showed that it is not the specific choice of the activation function, but rather the multilayer feedforward architecture itself which gives neural networks the potential of being universal approximators. This is an important contribution which is the foundation for the current state of the art deep learning architecture such as VGG 16  \cite{SimonyanZ14a} and resnet \cite{DBLP:journals/corr/HeZRS15} \cite{DBLP:journals/corr/GirshickDDM13} \cite{DBLP:conf/iccv/Girshick15} \cite{DBLP:conf/nips/RenHGS15}
+\cite{DBLP:journals/corr/RedmonDGF15}
+\cite{DBLP:journals/corr/RedmonF16}
+\cite{NIPS2012_4824}
+\cite{doi:10.1162/neco.1989.1.4.541}
+\cite{DBLP:journals/corr/IoffeS15}
 
 
-%\bibitem{lamport94}
-  %Leslie Lamport,
-  %\textit{\LaTeX: a document preparation system},
-  %Addison Wesley, Massachusetts,
-  %2nd edition,
-  %1994.
-
-\end{thebibliography}
+\bibliography{jimmy_shen}
+\bibliographystyle{ieeetr}
   
  \end{document}
