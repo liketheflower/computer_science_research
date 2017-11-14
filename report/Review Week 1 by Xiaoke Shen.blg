@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Review Week 1 by Xiaoke Shen.aux
+The style file: ieeetr.bst
+Database file #1: jimmy_shen.bib
+Warning--empty journal in ji2017
+Warning--empty journal in csaji2001
+You've used 6 entries,
+            1876 wiz_defined-function locations,
+            517 strings with 4379 characters,
+and the built_in function-call counts, 1214 in all, are:
+= -- 111
+> -- 45
+< -- 0
++ -- 18
+- -- 12
+* -- 85
+:= -- 191
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 67
+empty$ -- 124
+format.name$ -- 12
+if$ -- 287
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 21
+num.names$ -- 6
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 31
+stack$ -- 0
+substring$ -- 52
+swap$ -- 18
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 11
+width$ -- 7
+write$ -- 54
+(There were 2 warnings)

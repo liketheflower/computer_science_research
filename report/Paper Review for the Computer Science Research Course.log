@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 SEP 2017 07:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 SEP 2017 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,79 +317,155 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 31.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 32.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation `who invented backpropagation?' on page 2 undefined on 
-input line 56.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
-[2] (./Paper Review for the Computer Science Research Course.bbl
+<bn.png, id=9, 608.2725pt x 191.71625pt>
+File: bn.png Graphic file (type png)
+ <use bn.png>
+Package pdftex.def Info: bn.png used on input line 61.
+(pdftex.def)             Requested size: 364.96632pt x 115.03062pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--65
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+<bpzip.png, id=16, 507.8975pt x 449.68pt>
+File: bpzip.png Graphic file (type png)
+ <use bpzip.png>
+Package pdftex.def Info: bpzip.png used on input line 75.
+(pdftex.def)             Requested size: 406.31856pt x 359.74448pt.
+
+Overfull \hbox (16.31856pt too wide) in paragraph at lines 75--76
+ [] 
+ []
+
+[3 <./bn.png>]
+Overfull \hbox (28.1878pt too wide) in paragraph at lines 81--81
+|[]\OT1/cmr/bx/n/14.4 ImageNet: A Large-Scale Hi-er-ar-chi-cal Im-age Database
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[4 <./bpzip.png>] <alexnet.png, id=25, 737.75626pt x 242.9075pt>
+File: alexnet.png Graphic file (type png)
+
+<use alexnet.png>
+Package pdftex.def Info: alexnet.png used on input line 91.
+(pdftex.def)             Requested size: 405.7672pt x 133.59952pt.
+
+Overfull \hbox (15.7672pt too wide) in paragraph at lines 91--92
+ [] 
+ []
+
+
+Overfull \hbox (0.43124pt too wide) in paragraph at lines 97--97
+|[]\OT1/cmr/bx/n/14.4 Very Deep Con-vo-lu-tional Net-works for Large-Scale
+ []
+
+<vgg16.png, id=26, 526.96875pt x 533.995pt>
+File: vgg16.png Graphic file (type png)
+ <use vgg16.png>
+Package pdftex.def Info: vgg16.png used on input line 101.
+(pdftex.def)             Requested size: 395.22559pt x 400.49527pt.
+
+Overfull \hbox (5.22559pt too wide) in paragraph at lines 101--102
+ [] 
+ []
+
+[5 <./alexnet.png>] <renet1.png, id=31, 751.80875pt x 291.0875pt>
+File: renet1.png Graphic file (type png)
+
+<use renet1.png>
+Package pdftex.def Info: renet1.png used on input line 111.
+(pdftex.def)             Requested size: 375.90344pt x 145.54338pt.
+ [6 <./vgg16.png>]
+Overfull \hbox (2.0462pt too wide) in paragraph at lines 120--120
+|[]\OT1/cmr/bx/n/14.4 Microsoft COCO: Com-mon Ob-jects in Con-text [12]
+ []
+
+(./Paper Review for the Computer Science Research Course.bbl
 Missing character: There is no á in font cmr12!
- [3]
-Underfull \hbox (badness 2818) in paragraph at lines 41--43
-[]\OT1/cmr/m/n/12 J. Red-mon, S. K. Div-vala, R. B. Gir-shick, and A. Farhadi,
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 59--62
+ [7 <./renet1.png>]
+Underfull \hbox (badness 4181) in paragraph at lines 27--30
 \OT1/cmr/m/n/12 net-work train-ing by re-duc-ing in-ter-nal co-vari-ate shift,'
 ' \OT1/cmr/m/it/12 CoRR\OT1/cmr/m/n/12 ,
  []
 
-) [4] (./Paper Review for the Computer Science Research Course.aux)
 
-LaTeX Warning: There were undefined references.
+Underfull \hbox (badness 1742) in paragraph at lines 47--50
+[]\OT1/cmr/m/n/12 G. E. Hin-ton, N. Sri-vas-tava, A. Krizhevsky, I. Sutskever, 
+and
+ []
 
- ) 
+
+Underfull \hbox (badness 1259) in paragraph at lines 47--50
+\OT1/cmr/m/n/12 R. Salakhut-di-nov, ``Im-prov-ing neu-ral net-works by pre-vent
+-ing co-
+ []
+
+[8]
+Underfull \hbox (badness 2818) in paragraph at lines 75--77
+[]\OT1/cmr/m/n/12 J. Red-mon, S. K. Div-vala, R. B. Gir-shick, and A. Farhadi,
+ []
+
+) [9] (./Paper Review for the Computer Science Research Course.aux) ) 
 Here is how much of TeX's memory you used:
- 4149 strings out of 493014
- 59133 string characters out of 6133351
- 127150 words of memory out of 5000000
- 7606 multiletter control sequences out of 15000+600000
- 13740 words of font info for 55 fonts, out of 8000000 for 9000
+ 4181 strings out of 493014
+ 59507 string characters out of 6133351
+ 127190 words of memory out of 5000000
+ 7632 multiletter control sequences out of 15000+600000
+ 13433 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,33p,866b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+ 38i,7n,33p,866b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on "Paper Review for the Computer Science Research Course.pdf" (
-4 pages, 88439 bytes).
+9 pages, 1185670 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

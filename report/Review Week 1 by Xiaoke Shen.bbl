@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{ji2017}
+P.~Ji, ``Syllabus of the computer science research at cuny fall 2017,'' 2017.
+
+\bibitem{csaji2001}
+B.~C. Csáji, ``Approximation with artificial neural networks,'' pp.~11--12,
+  2001.
+
+\bibitem{hornik1991}
+K.~Hornik, ``Approximation capabilities of multilayer feedforward networks,''
+  {\em Neural Networks}, vol.~vol. 4, 1991.
+
+\bibitem{SimonyanZ14a}
+K.~Simonyan and A.~Zisserman, ``Very deep convolutional networks for
+  large-scale image recognition,'' {\em CoRR}, vol.~abs/1409.1556, 2014.
+
+\bibitem{DBLP:journals/corr/HeZRS15}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' {\em CoRR}, vol.~abs/1512.03385, 2015.
+
+\bibitem{Rumelhart1986}
+D.~E. Rumelhart, G.~E. Hinton, and R.~J. Williams, ``Learning representations
+  by back-propagating errors,'' {\em Nature}, vol.~323, pp.~533--536, 10 1986.
+
+\end{thebibliography}

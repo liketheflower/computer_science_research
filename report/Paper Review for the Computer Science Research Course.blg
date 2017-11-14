@@ -1,57 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Paper Review for the Computer Science Research Course.aux
-White space in argument---line 17 of file Paper Review for the Computer Science Research Course.aux
- : \citation{who
- :               invented backpropagation?}
-I'm skipping whatever remains of this command
 The style file: ieeetr.bst
 Database file #1: jimmy_shen.bib
-I was expecting a `,' or a `}'---line 275 of file jimmy_shen.bib
- : @misc{who 
- :           invented backpropagation?, url={http://people.idsia.ch/~juergen/who-invented-backpropagation.html}, journal={Who Invented Backpropagation?}}
-I'm skipping whatever remains of this entry
 Warning--empty journal in ji2017
 Warning--empty journal in csaji2001
 You've used 17 entries,
             1876 wiz_defined-function locations,
-            588 strings with 7039 characters,
-and the built_in function-call counts, 4320 in all, are:
-= -- 373
-> -- 228
+            587 strings with 7186 characters,
+and the built_in function-call counts, 4205 in all, are:
+= -- 352
+> -- 241
 < -- 0
-+ -- 82
-- -- 65
-* -- 333
-:= -- 662
++ -- 86
+- -- 69
+* -- 332
+:= -- 658
 add.period$ -- 17
 call.type$ -- 17
 change.case$ -- 17
 chr.to.int$ -- 0
 cite$ -- 19
-duplicate$ -- 223
-empty$ -- 412
-format.name$ -- 65
-if$ -- 1018
+duplicate$ -- 215
+empty$ -- 398
+format.name$ -- 69
+if$ -- 980
 int.to.chr$ -- 0
 int.to.str$ -- 17
 missing$ -- 17
 newline$ -- 54
 num.names$ -- 21
-pop$ -- 65
+pop$ -- 66
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 113
+skip$ -- 100
 stack$ -- 0
-substring$ -- 215
-swap$ -- 71
+substring$ -- 184
+swap$ -- 63
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 37
+while$ -- 35
 width$ -- 19
-write$ -- 157
-(There were 2 error messages)
+write$ -- 156
+(There were 2 warnings)

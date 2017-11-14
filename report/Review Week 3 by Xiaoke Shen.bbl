@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{ji2017}
+P.~Ji, ``Syllabus of the computer science research at cuny fall 2017,'' 2017.
+
+\bibitem{NIPS2012_4824}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
+  deep convolutional neural networks,'' in {\em Advances in Neural Information
+  Processing Systems 25} (F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q.
+  Weinberger, eds.), pp.~1097--1105, Curran Associates, Inc., 2012.
+
+\bibitem{DBLP:journals/corr/abs-1207-0580}
+G.~E. Hinton, N.~Srivastava, A.~Krizhevsky, I.~Sutskever, and R.~Salakhutdinov,
+  ``Improving neural networks by preventing co-adaptation of feature
+  detectors,'' {\em CoRR}, vol.~abs/1207.0580, 2012.
+
+\bibitem{SimonyanZ14a}
+K.~Simonyan and A.~Zisserman, ``Very deep convolutional networks for
+  large-scale image recognition,'' {\em CoRR}, vol.~abs/1409.1556, 2014.
+
+\bibitem{imagenet_cvpr09}
+J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei, ``{ImageNet: A
+  Large-Scale Hierarchical Image Database},'' in {\em CVPR09}, 2009.
+
+\bibitem{DBLP:journals/corr/HeZRS15}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' {\em CoRR}, vol.~abs/1512.03385, 2015.
+
+\end{thebibliography}
