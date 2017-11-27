@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: A survey of Object Classification and Detection based on the 3D data.aux
+The style file: ieeetr.bst
+Database file #1: jimmy_shen.bib
+Warning--all relevant fields are empty in ann
+Warning--empty journal in ji2017
+Warning--empty journal in csaji2001
+You've used 20 entries,
+            1876 wiz_defined-function locations,
+            600 strings with 7480 characters,
+and the built_in function-call counts, 4538 in all, are:
+= -- 376
+> -- 250
+< -- 0
++ -- 91
+- -- 71
+* -- 347
+:= -- 705
+add.period$ -- 20
+call.type$ -- 20
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 237
+empty$ -- 447
+format.name$ -- 71
+if$ -- 1060
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 19
+newline$ -- 63
+num.names$ -- 23
+pop$ -- 78
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 110
+stack$ -- 0
+substring$ -- 184
+swap$ -- 65
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 37
+width$ -- 22
+write$ -- 176
+(There were 3 warnings)

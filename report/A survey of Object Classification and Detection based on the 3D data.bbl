@@ -1,0 +1,93 @@
+\begin{thebibliography}{10}
+
+\bibitem{Rosenblatt}
+F.~Rosenblatt, ``The perceptron: A probabilistic model for information storage
+  and organization in the brain,'' {\em Psychological Review}, 1958.
+
+\bibitem{Minsky}
+M.~Minsky, ``Perceptrons: An introduction to computational geometry,'' {\em MIT
+  Press. ISBN 0-262-63022-2}, 1969.
+
+\bibitem{ann}
+
+
+\bibitem{ji2017}
+P.~Ji, ``Syllabus of the computer science research at cuny fall 2017,'' 2017.
+
+\bibitem{csaji2001}
+B.~C. Csáji, ``Approximation with artificial neural networks,'' pp.~11--12,
+  2001.
+
+\bibitem{hornik1991}
+K.~Hornik, ``Approximation capabilities of multilayer feedforward networks,''
+  {\em Neural Networks}, vol.~vol. 4, 1991.
+
+\bibitem{SimonyanZ14a}
+K.~Simonyan and A.~Zisserman, ``Very deep convolutional networks for
+  large-scale image recognition,'' {\em CoRR}, vol.~abs/1409.1556, 2014.
+
+\bibitem{DBLP:journals/corr/HeZRS15}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' {\em CoRR}, vol.~abs/1512.03385, 2015.
+
+\bibitem{Rumelhart1986}
+D.~E. Rumelhart, G.~E. Hinton, and R.~J. Williams, ``Learning representations
+  by back-propagating errors,'' {\em Nature}, vol.~323, pp.~533--536, 10 1986.
+
+\bibitem{DBLP:journals/corr/IoffeS15}
+S.~Ioffe and C.~Szegedy, ``Batch normalization: Accelerating deep network
+  training by reducing internal covariate shift,'' {\em CoRR},
+  vol.~abs/1502.03167, 2015.
+
+\bibitem{doi:10.1162/neco.1989.1.4.541}
+Y.~LeCun, B.~Boser, J.~S. Denker, D.~Henderson, R.~E. Howard, W.~Hubbard, and
+  L.~D. Jackel, ``Backpropagation applied to handwritten zip code
+  recognition,'' {\em Neural Computation}, vol.~1, no.~4, pp.~541--551, 1989.
+
+\bibitem{NIPS2012_4824}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
+  deep convolutional neural networks,'' in {\em Advances in Neural Information
+  Processing Systems 25} (F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q.
+  Weinberger, eds.), pp.~1097--1105, Curran Associates, Inc., 2012.
+
+\bibitem{imagenet_cvpr09}
+J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei, ``{ImageNet: A
+  Large-Scale Hierarchical Image Database},'' in {\em CVPR09}, 2009.
+
+\bibitem{DBLP:journals/corr/abs-1207-0580}
+G.~E. Hinton, N.~Srivastava, A.~Krizhevsky, I.~Sutskever, and R.~Salakhutdinov,
+  ``Improving neural networks by preventing co-adaptation of feature
+  detectors,'' {\em CoRR}, vol.~abs/1207.0580, 2012.
+
+\bibitem{DBLP:journals/corr/LinMBHPRDZ14}
+T.~Lin, M.~Maire, S.~J. Belongie, L.~D. Bourdev, R.~B. Girshick, J.~Hays,
+  P.~Perona, D.~Ramanan, P.~Doll{\'{a}}r, and C.~L. Zitnick, ``Microsoft
+  {COCO:} common objects in context,'' {\em CoRR}, vol.~abs/1405.0312, 2014.
+
+\bibitem{DBLP:journals/corr/GirshickDDM13}
+R.~B. Girshick, J.~Donahue, T.~Darrell, and J.~Malik, ``Rich feature
+  hierarchies for accurate object detection and semantic segmentation,'' {\em
+  CoRR}, vol.~abs/1311.2524, 2013.
+
+\bibitem{DBLP:conf/iccv/Girshick15}
+R.~B. Girshick, ``Fast {R-CNN},'' in {\em 2015 {IEEE} International Conference
+  on Computer Vision, {ICCV} 2015, Santiago, Chile, December 7-13, 2015},
+  pp.~1440--1448, {IEEE} Computer Society, 2015.
+
+\bibitem{DBLP:conf/nips/RenHGS15}
+S.~Ren, K.~He, R.~B. Girshick, and J.~Sun, ``Faster {R-CNN:} towards real-time
+  object detection with region proposal networks,'' in {\em Advances in Neural
+  Information Processing Systems 28: Annual Conference on Neural Information
+  Processing Systems 2015, December 7-12, 2015, Montreal, Quebec, Canada}
+  (C.~Cortes, N.~D. Lawrence, D.~D. Lee, M.~Sugiyama, and R.~Garnett, eds.),
+  pp.~91--99, 2015.
+
+\bibitem{DBLP:journals/corr/RedmonDGF15}
+J.~Redmon, S.~K. Divvala, R.~B. Girshick, and A.~Farhadi, ``You only look once:
+  Unified, real-time object detection,'' {\em CoRR}, vol.~abs/1506.02640, 2015.
+
+\bibitem{DBLP:journals/corr/RedmonF16}
+J.~Redmon and A.~Farhadi, ``{YOLO9000:} better, faster, stronger,'' {\em CoRR},
+  vol.~abs/1612.08242, 2016.
+
+\end{thebibliography}

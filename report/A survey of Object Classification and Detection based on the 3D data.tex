@@ -25,7 +25,7 @@
 \renewcommand\labelenumi{(\theenumi)}
 %vector
 \renewcommand{\vec}[1]{\mathbf{#1}}
-\title {A survey of Object Classification and Object Detection based on 3D data }
+\title {A survey of Image Classification and Object Detection based on 3D data }
 %\author{jim.morris.shen@gmail.com}
 %\author{The Graduate Center, City University of New York}
 \author{Xiaoke Shen}
@@ -40,8 +40,13 @@ In this survey, the both the main algorithms used in the 2D image and 3D image b
 %\textbf{Due Mar 1st 11:59 pm. 10 points for each exercise and 20 points for the extra credit exercise }\\
 \section{Introduction}
 
-Following the general problem solving approach in both science and engineering area, in order to resolve a problem, we should do the data representation and develop the algorithm/model and then try to resolve those problems. Based on this approach, there is no difference for the 2D images and 3D images based methods. Then, there must be some difference from the performance's perspective. Generally speaking, by introducing the 3D data representation of an object, the performance should be at least the same as the 2D data representation approach 
+Following the general problem solving approach in both science and engineering area, in order to resolve a problem, we should do the data representation and develop the algorithm/model and then try to resolve those problems. Based on this approach, there is no difference for the 2D images and 3D images based methods. Then, there must be some difference from the performance's perspective. Generally speaking, by introducing the 3D data representation of an object, the performance should be at least the same as the 2D data representation approach as the 3D data representation of the real object will introduce more information compared with the 2D only representation.\\
+Currently, great achievements have been shown in the 2D images area by using the deep neural networks. Actually, the neural network is not a new approach. It was first introduced in 1950s. In 1958, Rosenblatt\cite{Rosenblatt} created the perceptron, an algorithm for pattern recognition.  The perceptron algorithm's first implementation, in custom hardware, was one of the first artificial neural networks to be produced. Although the perceptron initially seemed promising, Neural network research stagnated after machine learning research by Minsky and Papert (1969)\cite{Minsky}, who discovered two key issues with the computational machines that processed neural networks. The first was that basic perceptrons were incapable of processing the exclusive-or circuit. The second was that computers didn't have enough processing power to effectively handle the work required by large neural networks
+\cite{ann}. The first issue was resolved by introducing more layers of networks and the second issue was resovled by both reducing the complexity of the algorithms and by introducing more powerful computing hardware such as GPU.\\
+ 
 
+
+ it was quickly proved that perceptrons could not be trained to recognise many classes of patterns. This caused the field of neural network research to stagnate for many years, before it was recognised that a feedforward neural network with two or more layers (also called a multilayer perceptron) had far greater processing power than perceptrons with one layer (also called a single layer perceptron).[dubious – discuss] Single layer perceptrons are only capable of learning linearly separable patterns; in 1969 a famous book entitled Perceptrons by Marvin Minsky and Seymour Papert showed that it was impossible for these classes of network to learn an XOR function. It is often believed that they also conjectured (incorrectly) that a similar result would hold for a multi-layer perceptron network. However, this is not true, as both Minsky and Papert already knew that multi-layer perceptrons were capable of producing an XOR function. 
 
 
 This paper review report is provided based on the requirement of the computer science research course provided by the Graduate Center of the City University of New York during the 2017 Fall Semester. The main objective of this course is helping the PHD candidates to prepare their second exam and identify their thesis topic as early as possible\cite{ji2017}. \\
