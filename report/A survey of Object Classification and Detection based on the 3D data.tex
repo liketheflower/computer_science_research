@@ -1,0 +1,143 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\documentclass{article}
+\usepackage{setspace, enumitem,titlesec}
+\usepackage{calc}
+			% Activate to display a given date or no date
+\usepackage{mathtools}
+\usepackage{mathrsfs }
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{fancybox}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{cite}
+\usepackage{authblk}
+%\usepackage{algpseudocode}
+
+%\renewcommand{\thepseudonum}{\roman{pseudonum}}
+\renewcommand\labelenumi{(\theenumi)}
+%vector
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\title {A survey of Object Classification and Object Detection based on 3D data }
+%\author{jim.morris.shen@gmail.com}
+%\author{The Graduate Center, City University of New York}
+\author{Xiaoke Shen}
+\affil{The Graduate Center, City University of New York}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+Recently, by using the deep neural network based algorithms, the object classification and detection can achieve a new state of the art. For some scenarios, the deep neural network based algorithms can achieve a similar or even have a better performance on 2D image classification/detection and segmantic segmentation than the human expert. However, one main drawback of only using the 2D images is even the boudning box even the pixel level recognization can be well done based on 2D images, the accurate info such as the real location of the object can still not be well collected as the drawback of the 2D image data representation itself such as extension distortion. Meanwhile, as the 3D images, such as 3D cloud point data, can well preserve the accurate location info and sturcture of the objects, they are widely used to resolve the location sensative problems such as Self-Driving Cars and Robot Visions.\\
+In this survey, the both the main algorithms used in the 2D image and 3D image based object classification/detection and semantic segmentation are surveyed. Whether some algoritms used in the 2D can be adjusted in the 3D scenario will be discussed. The 3D only algorithms will also be disussed. Finally, some potential algorithms in the 3D data based object classification/detection will be discussed.\\
+\end{abstract}
+%\textbf{Due Mar 1st 11:59 pm. 10 points for each exercise and 20 points for the extra credit exercise }\\
+\section{Introduction}
+
+Following the general problem solving approach in both science and engineering area, in order to resolve a problem, we should do the data representation and develop the algorithm/model and then try to resolve those problems. Based on this approach, there is no difference for the 2D images and 3D images based methods. Then, there must be some difference from the performance's perspective. Generally speaking, by introducing the 3D data representation of an object, the performance should be at least the same as the 2D data representation approach 
+
+
+
+This paper review report is provided based on the requirement of the computer science research course provided by the Graduate Center of the City University of New York during the 2017 Fall Semester. The main objective of this course is helping the PHD candidates to prepare their second exam and identify their thesis topic as early as possible\cite{ji2017}. \\
+In this report the papers related to the object classification, object detection and object semantic segmentation for the 2D and 3D objects will be discussed. As most of the state of the art algorithms used for those tasks are based on the deep convolutional neural networks, the important papers related to the deep neural networks will also be discussed in this article.\\
+The structure of this article is described bellow: The papers related to the theory part of the deep learning will be discussed in the second session. In the third session, the papers in the 2D object classification will be discussed. In session 4, the 2D object detection papers will be studied. At the same time, an interesting and more challenge related to the 2D image procession or computer vision will be discussed in session 5 which is the 2D object semantic segmentation. In the rest part of this article, the similar tasks in 3D will be discussed as the final goal of this paper review is finding some possible approaches to improve the current 3D computer vision algorithms based on the state of the are 2D computer vision algorithms.\\
+
+\section{Deep Learning Theory}
+\subsection{Approximation with Artificial Neural Networks \cite{csaji2001}}
+In order to build the mathematical theory of the artificial neural networks, several papers are published in the 20 century. In this paper one main contribution is the universal approximation theorem with proof. The universal approximation theorem claims \cite{csaji2001}  that the standard multilayer feed-forward networks with a single hidden layer that contains finite number of hidden neurons, and with arbitrary activation function are universal approximators in $C(R^m)$.  The universal approximation theorem is one of the important theoretical support for the artificial neural networks. However, at that time as the huge size labeled data sets are not available, the updated algorithms haven't been invented and also the limited computation power, these ideas can not be verified.
+
+
+\subsection{Approximation Capabilities of Multilayer Feedforward Networks \cite{hornik1991} }
+
+The unique value of the Kurt Hornik (1991) \cite{hornik1991} paper is it showed that it is not the specific choice of the activation function, but rather the multilayer feedforward architecture itself which gives neural networks the potential of being universal approximators. This is an important contribution which is the foundation for the current state of the art deep learning architecture such as VGG 16  \cite{SimonyanZ14a} and resnet \cite{DBLP:journals/corr/HeZRS15}
+
+
+
+
+\subsection{Learning representations by back-propagating errors\cite{Rumelhart1986}}
+The paper of 1986 significantly contributed to the popularisation of BP(Back Propagation) for NNs \cite{Rumelhart1986}, experimentally demonstrating the emergence of useful internal representations in hidden layers. The Back Propagation algorithm is one of the most critical and fundamental algorithm used in the deep neural network.
+This paper will be read in the future.\\
+\subsection{Batch Normalization: Accelerating Deep Network Training by Reducing
+               Internal Covariate Shift\cite{DBLP:journals/corr/IoffeS15}}
+The main contribution of this paper as shown in Figure \ref{fig:bp} is it greatly reduced the convergence time for the training process and the BN(Batch Normalization) become one of the standard training step for the deep neural network after the publish of this paper.\\
+\begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.6]{bn.png}
+\end{center}
+\caption{(a) The test accuracy of the MNIST network trained with and without Batch Normalization, vs. the number of training steps. Batch Normalization helps the network train faster and achieve higher accuracy\cite{DBLP:journals/corr/IoffeS15}. (b, c) The evolution of input distributions to a typical sigmoid, over the course of training, shown as  15, 50, 85th percentiles. Batch Normalization makes the distribution more stable and reduces the internal covariate shift\cite{DBLP:journals/corr/IoffeS15}.}
+ \label{fig:bp}
+ \end{figure}
+
+%\cite{Schmidhuber201585}
+
+\section{Object Classification for 2D Images}
+\subsection{Backpropagation applied to handwritten zip code recognition\cite{doi:10.1162/neco.1989.1.4.541}}
+The first important application of using the BP(Back Propagation) to well resolve the real life problem from the literature. From this paper, one important structure of the neural network as show in Figure \ref{fig:bpzip} including the layers with filters were introduced. The similar structure is used in the modern neural network structures such as Alex Net\cite{NIPS2012_4824}, VGG 16  \cite{SimonyanZ14a} and resnet \cite{DBLP:journals/corr/HeZRS15}. The basic idea of the convolutional neural network was also introduced here.\\
+
+\begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.8]{bpzip.png}
+\end{center}
+\caption{The Neural Network used in \cite{doi:10.1162/neco.1989.1.4.541}.}
+ \label{fig:bpzip}
+ \end{figure}
+ 
+\subsection{ImageNet: A Large-Scale Hierarchical Image Database\cite{imagenet_cvpr09}}
+In the machine learning research area, two kinds of learning approaches can be done: supervised learning and unsupervised learning. For the supervised learning algorithms, the labeled data is required to train the algorithm. So the availability of the labeled data will become very important to the development of the supervised learning based algorithms. The ImageNet dataset \cite{imagenet_cvpr09} provides 1.2 million high-resolution labeled images of 1000 categories. This dataset becomes one of the most important datasets related to the object classification.\\
+
+\subsection{ImageNet Classification with Deep Convolutional Neural Networks\cite{NIPS2012_4824}}
+To reduce overfitting in the fully-connected layers we employed a recently-developed regularization method called "dropout"\cite{DBLP:journals/corr/abs-1207-0580} that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of $15.3\%$, compared to $26.2\%$ achieved by the second-best entry.\\
+The CNN network structure is illustrated in the Figure \ref{fig:alexnet}
+
+
+ \begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.55]{alexnet.png}
+\end{center}
+\caption{An illustration of the architecture of Alex Net, explicitly showing the delineation of responsibilities between the two GPUs. One GPU runs the layer-parts at the top of the figure while the other runs the layer-parts at the bottom. The GPUs communicate only at certain layers. The network?s input is 150,528-dimensional, and the number of neurons in the network?s remaining layers is given by 253, 440-186, 624-64, 896-64, 896-43, 264-4096-4096-1000\cite{NIPS2012_4824}.}
+ \label{fig:alexnet}
+ \end{figure}
+
+\subsection{Very Deep Convolutional Networks for Large-Scale Image Recognition\cite{SimonyanZ14a}}
+
+ \begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.75]{vgg16.png}
+\end{center}
+\caption{An illustration of the VGG network structure.}
+ \label{fig:vgg16}
+ \end{figure}
+
+\subsection{Deep Residual Learning for Image Recognition\cite{DBLP:journals/corr/HeZRS15}}
+
+\begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.5]{renet1.png}
+\end{center}
+\caption{An illustration of deep neural networks.}
+ \label {fig:4}
+ \end{figure}
+
+ 
+\section{Object Detection for 2D Images}
+
+\subsection{Microsoft COCO: Common Objects in Context \cite{DBLP:journals/corr/LinMBHPRDZ14} }
+\subsection{Rich feature hierarchies for accurate object detection and semantic
+               segmentation\cite{DBLP:journals/corr/GirshickDDM13}}
+\subsection{Fast R-CNN\cite{DBLP:conf/iccv/Girshick15}}
+\subsection{Faster R-CNN: Towards Real-Time Object Detection with Region Proposal
+               Networks\cite{DBLP:conf/nips/RenHGS15}}
+\subsection{You Only Look Once: Unified, Real-Time Object Detection\cite{DBLP:journals/corr/RedmonDGF15}}
+\subsection{YOLO9000: Better, Faster, Stronger\cite{DBLP:journals/corr/RedmonF16}}
+
+               
+\bibliography{jimmy_shen}
+\bibliographystyle{ieeetr}
+  
+ \end{document}
