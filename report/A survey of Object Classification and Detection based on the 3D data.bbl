@@ -9,10 +9,12 @@ M.~Minsky, ``Perceptrons: An introduction to computational geometry,'' {\em MIT
   Press. ISBN 0-262-63022-2}, 1969.
 
 \bibitem{ann}
+\url{https://en.wikipedia.org/wiki/Artificial_neural_network}.
+\newblock Accessed: 2017-10-20.
 
-
-\bibitem{ji2017}
-P.~Ji, ``Syllabus of the computer science research at cuny fall 2017,'' 2017.
+\bibitem{kinect}
+\url{https://en.wikipedia.org/wiki/Kinect}.
+\newblock Accessed: 2017-10-20.
 
 \bibitem{csaji2001}
 B.~C. Csáji, ``Approximation with artificial neural networks,'' pp.~11--12,
