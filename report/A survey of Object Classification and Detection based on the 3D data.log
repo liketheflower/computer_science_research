@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.27)  28 NOV 2017 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.27)  28 NOV 2017 01:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -80,6 +80,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \mathdisplay@stack=\toks18
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -252,18 +256,18 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \openout1 = `"A survey of Object Classification and Detection based on the 3D d
 ata.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -326,213 +330,172 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
-
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [2]
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
 <Kinect2-deepmap.png, id=14, 220.825pt x 177.66376pt>
 File: Kinect2-deepmap.png Graphic file (type png)
 
 <use Kinect2-deepmap.png>
-Package pdftex.def Info: Kinect2-deepmap.png used on input line 59.
+Package pdftex.def Info: Kinect2-deepmap.png used on input line 61.
 (pdftex.def)             Requested size: 132.496pt x 106.59906pt.
+ <cnn.jpg, id=16, 1711.39375pt x 936.49875pt>
+File: cnn.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+<use cnn.jpg>
+Package pdftex.def Info: cnn.jpg used on input line 71.
+(pdftex.def)             Requested size: 427.8474pt x 234.12411pt.
+
+Overfull \hbox (37.8474pt too wide) in paragraph at lines 71--72
+ [] 
+ []
+
+[3 <./Kinect2-deepmap.png>] <rviz.png, id=21, 947.54pt x 508.90125pt>
+File: rviz.png Graphic file (type png)
+
+<use rviz.png>
+Package pdftex.def Info: rviz.png used on input line 79.
+(pdftex.def)             Requested size: 379.00928pt x 203.55688pt.
+ [4 <./cnn.jpg> <./rviz.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-[3 <./Kinect2-deepmap.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
-
+LaTeX Font Info:    Try loading font information for U+msa on input line 100.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 73.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
+) [5]
+Overfull \hbox (4.1029pt too wide) in paragraph at lines 110--110
+|\OT1/cmr/bx/n/14.4 Learning rep-re-sen-ta-tions by back-propagating er-rors [1
+0]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
-[4]
-Overfull \hbox (5.61621pt too wide) in paragraph at lines 87--87
+
+Overfull \hbox (5.61621pt too wide) in paragraph at lines 114--114
 |\OT1/cmr/bx/n/14.4 Batch Nor-mal-iza-tion: Ac-cel-er-at-ing Deep Net-work Trai
 n-
  []
 
-<bn.png, id=25, 608.2725pt x 191.71625pt>
+<bn.png, id=30, 608.2725pt x 191.71625pt>
 File: bn.png Graphic file (type png)
  <use bn.png>
-Package pdftex.def Info: bn.png used on input line 91.
+Package pdftex.def Info: bn.png used on input line 118.
 (pdftex.def)             Requested size: 364.96632pt x 115.03062pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--95
+Underfull \hbox (badness 10000) in paragraph at lines 115--122
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-[5 <./bn.png>] <bpzip.png, id=30, 507.8975pt x 449.68pt>
+<bpzip.png, id=34, 507.8975pt x 449.68pt>
 File: bpzip.png Graphic file (type png)
  <use bpzip.png>
-Package pdftex.def Info: bpzip.png used on input line 105.
+Package pdftex.def Info: bpzip.png used on input line 132.
 (pdftex.def)             Requested size: 406.31856pt x 359.74448pt.
 
-Overfull \hbox (16.31856pt too wide) in paragraph at lines 105--106
+Overfull \hbox (16.31856pt too wide) in paragraph at lines 132--133
  [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[7 <./bn.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-[6 <./bpzip.png>] <alexnet.png, id=35, 737.75626pt x 242.9075pt>
+[8 <./bpzip.png>] <alexnet.png, id=44, 737.75626pt x 242.9075pt>
 File: alexnet.png Graphic file (type png)
 
 <use alexnet.png>
-Package pdftex.def Info: alexnet.png used on input line 121.
+Package pdftex.def Info: alexnet.png used on input line 148.
 (pdftex.def)             Requested size: 405.7672pt x 133.59952pt.
 
-Overfull \hbox (15.7672pt too wide) in paragraph at lines 121--122
+Overfull \hbox (15.7672pt too wide) in paragraph at lines 148--149
  [] 
  []
 
-<vgg16.png, id=36, 526.96875pt x 533.995pt>
+<vgg16.png, id=45, 526.96875pt x 533.995pt>
 File: vgg16.png Graphic file (type png)
  <use vgg16.png>
-Package pdftex.def Info: vgg16.png used on input line 131.
+Package pdftex.def Info: vgg16.png used on input line 158.
 (pdftex.def)             Requested size: 395.22559pt x 400.49527pt.
 
-Overfull \hbox (5.22559pt too wide) in paragraph at lines 131--132
+Overfull \hbox (5.22559pt too wide) in paragraph at lines 158--159
  [] 
  []
 
-[7 <./alexnet.png>] <renet1.png, id=42, 751.80875pt x 291.0875pt>
+[9 <./alexnet.png>] <renet1.png, id=50, 751.80875pt x 291.0875pt>
 File: renet1.png Graphic file (type png)
 
 <use renet1.png>
-Package pdftex.def Info: renet1.png used on input line 141.
+Package pdftex.def Info: renet1.png used on input line 168.
 (pdftex.def)             Requested size: 375.90344pt x 145.54338pt.
- [8 <./vgg16.png>]
+ [10 <./vgg16.png>]
 (./A survey of Object Classification and Detection based on the 3D data.bbl
-! Undefined control sequence.
-l.12 \url
-         {https://en.wikipedia.org/wiki/Artificial_neural_network}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.12 ...{https://en.wikipedia.org/wiki/Artificial_
-                                                  neural_network}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.12 ...ipedia.org/wiki/Artificial_neural_network}
-                                                  .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.14 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.14 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 6741) in paragraph at lines 12--14
-[]\OT1/cmr/m/n/12 https://en.wikipedia.org/wiki/Artificial$[]\OML/cmm/m/it/12 e
-ural[]etwork: Accessed \OT1/cmr/m/n/12 :
- []
-
-[9 <./renet1.png>]
-! Undefined control sequence.
-l.16 \url
-         {https://en.wikipedia.org/wiki/Kinect}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+[11 <./renet1.png>]
 Missing character: There is no á in font cmr12!
 
-Underfull \hbox (badness 4181) in paragraph at lines 40--43
+Underfull \hbox (badness 4181) in paragraph at lines 44--47
 \OT1/cmr/m/n/12 net-work train-ing by re-duc-ing in-ter-nal co-vari-ate shift,'
 ' \OT1/cmr/m/it/12 CoRR\OT1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 60--63
+Underfull \hbox (badness 1742) in paragraph at lines 64--67
 []\OT1/cmr/m/n/12 G. E. Hin-ton, N. Sri-vas-tava, A. Krizhevsky, I. Sutskever, 
 and
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 60--63
+Underfull \hbox (badness 1259) in paragraph at lines 64--67
 \OT1/cmr/m/n/12 R. Salakhut-di-nov, ``Im-prov-ing neu-ral net-works by pre-vent
 -ing co-
  []
 
-[10]
-Underfull \hbox (badness 2818) in paragraph at lines 88--90
+[12]
+Underfull \hbox (badness 2818) in paragraph at lines 92--94
 []\OT1/cmr/m/n/12 J. Red-mon, S. K. Div-vala, R. B. Gir-shick, and A. Farhadi,
  []
 
-) [11]
+) [13]
 (./A survey of Object Classification and Detection based on the 3D data.aux) ) 
 Here is how much of TeX's memory you used:
- 4250 strings out of 493029
- 59887 string characters out of 6136233
- 131217 words of memory out of 5000000
- 7690 multiletter control sequences out of 15000+600000
- 11244 words of font info for 43 fonts, out of 8000000 for 9000
+ 4339 strings out of 493029
+ 60945 string characters out of 6136233
+ 134334 words of memory out of 5000000
+ 7771 multiletter control sequences out of 15000+600000
+ 11720 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,33p,992b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,33p,992b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
 <
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
@@ -541,13 +504,13 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive
 dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti12.pfb>
+ic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt12.pfb>
 Output written on "A survey of Object Classification and Detection based on the
- 3D data.pdf" (11 pages, 1287128 bytes).
+ 3D data.pdf" (13 pages, 1878205 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

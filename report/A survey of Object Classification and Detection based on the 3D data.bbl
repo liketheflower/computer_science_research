@@ -16,6 +16,10 @@ M.~Minsky, ``Perceptrons: An introduction to computational geometry,'' {\em MIT
 \url{https://en.wikipedia.org/wiki/Kinect}.
 \newblock Accessed: 2017-10-20.
 
+\bibitem{allancnn}
+A.~Zelener and I.~Stamos, ``Cnn-based object segmentation in urban lidar with
+  missing points,'' {\em International Conference on 3D Vision}, 2016.
+
 \bibitem{csaji2001}
 B.~C. Csáji, ``Approximation with artificial neural networks,'' pp.~11--12,
   2001.

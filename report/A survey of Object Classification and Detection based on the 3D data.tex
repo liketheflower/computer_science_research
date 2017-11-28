@@ -1,5 +1,6 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage{amsmath}
+\usepackage{url}
 \usepackage{amssymb}
 \usepackage{graphicx}
 %\documentclass{article}
@@ -38,19 +39,20 @@ Recently, by using the deep neural network based algorithms, the object classifi
 In this survey, the both the main algorithms used in the 2D image and 3D image based object classification/detection and semantic segmentation are surveyed. Whether some algoritms used in the 2D can be adjusted in the 3D scenario will be discussed. The 3D only algorithms will also be disussed. Finally, some potential algorithms in the 3D data based object classification/detection will be discussed.\\
 \end{abstract}
 %\textbf{Due Mar 1st 11:59 pm. 10 points for each exercise and 20 points for the extra credit exercise }\\
-\section{Introduction}
+\part{Introduction}
 
 Following the general problem solving approach in both science and engineering area, in order to resolve a problem, we should do the data representation and develop the algorithm/model and then try to resolve those problems. Based on this approach, there is no difference for the 2D images and 3D images based methods. Then, there must be some difference from the performance's perspective. Generally speaking, by introducing the 3D data representation of an object, the performance should be at least the same as the 2D data representation approach as the 3D data representation of the real object will introduce more information compared with the 2D only representation.\\
 Currently, great achievements have been shown in the 2D images area by using the deep neural networks. Actually, the neural network is not a new approach. It was first introduced in 1950s. In 1958, Rosenblatt\cite{Rosenblatt} created the perceptron, an algorithm for pattern recognition.  The perceptron algorithm's first implementation, in custom hardware, was one of the first artificial neural networks to be produced. Although the perceptron initially seemed promising, Neural network research stagnated after machine learning research by Minsky and Papert (1969)\cite{Minsky}, who discovered two key issues with the computational machines that processed neural networks. The first was that basic perceptrons were incapable of processing the exclusive-or circuit. The second was that computers didn't have enough processing power to effectively handle the work required by large neural networks
 \cite{ann}. The first issue was resolved by introducing more layers of networks and the second issue was resovled by both reducing the complexity of the algorithms and by introducing more powerful computing hardware such as GPU.\\
 By using the deep neural network based on algorithms, especially the convolutional neural networks based algorithms, the computer vision based on 2D images have been making great achievements in image classification, object detection and semantic segmentation since the year 2012. Meanwhile, the 3D image based algorithms have also greatly developed in the past 5 years. In this survey, the main techniques in the deep learning algorithms based on the 2D image data will be introduced. The main algorithms used in the 3D data based vision tasks will also be introduced. \\
-
-\subsection{3D image data}
+\chapter{3D image data}
 For the 2D image data, we can easily collect them in our daily life as the popularity of the smart phone which have at least one camera. The data representation for the 2D image is exactly a two dimensional array with red, green and blue channels. And for a specified row and a specified column, we have the basic unit of the image which is a pixel. For each pixel, the data is commonly represented by a number between 0 to 255. Most people are familar to this 2D image representation method.\\
 Compared with the 2D image, 3D image is not common to the public(at least as of the time this survey is done). However, the 3D images are becoming more and more important and are widely used in reconstructing architectural models of buildings, navigation of self-driving cars, detection face(such as face ID for iphone X), preservation of at-risk historical sites, and recreating virtual environments for the film and video game industries.\\
-In recent years the availability of low-cost sensors such as the Microsoft Kinect
-have enabled the acquisition of short-range indoor 3D data at the consumer
-level, and soon projects like Google’s Tango will bring depth sensors to tablets
+Mainly, there are two kinds of hardware available to do the 3D data generation: outdoor and indoor. For the outdoor, one typical hardware is LIDAR( Light Detection and Ranging). The coverage of this equipment can achieve to hundreds and even thousands meters. Google’s self-driving car has the LiDAR scanner. For the  indoor hardware, in recent years the availability of low-cost sensors such as the Microsoft Kinect
+have enabled the acquisition of short-range indoor 3D data at the consumer level. Meanwhile, the smart phone such as iPhone X will have the depth camera to catch the 3D image. The robots such as fetch have the layers to collect 3D data.
+
+
+, and soon projects like Google’s Tango will bring depth sensors to tablets
 and other mobile devices.
 
 
@@ -61,6 +63,31 @@ and other mobile devices.
 \caption{The depth map geenerated by Kinect. The depth map is visualized here using color gradients from white (near) to blue (far)\cite{kinect}}
  \label{fig:kinect}
  \end{figure}
+ 
+ 
+ 
+ \begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.25]{cnn.jpg}
+\end{center}
+\caption{example of the 3D data from the outdoor urban LIDAR scans\cite{allancnn}.}
+ \label{fig:lidar}
+ \end{figure}
+ 
+  \begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.4]{rviz.png}
+\end{center}
+\caption{The 3D view from the robot of Fetch's perspective.}
+ \label{fig:fetch}
+ \end{figure}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 \subsection{Image classification and object detection}
 In the computer vision research area, researchers focus on resovle the two main problems: what and where. For the image classification problems, the objective is get what info of this image such as whether this object is a cat or dog. For the object detection problem, the task includes two parts: what and where. For what, the interesting objects will be labelled as a category to infer the what exatly this object is. For the where part, a bounding box will be proposed. This kind of research approach is similar in both 2D and 3D based data.
@@ -68,7 +95,7 @@ In the computer vision research area, researchers focus on resovle the two main 
 In this report the papers related to the object classification, object detection and object semantic segmentation for the 2D and 3D objects will be discussed. As most of the state of the art algorithms used for those tasks are based on the deep convolutional neural networks, the important papers related to the deep neural networks will also be discussed in this article.\\
 The structure of this article is described bellow: The papers related to the theory part of the deep learning will be discussed in the second session. In the third session, the papers in the 2D object classification will be discussed. In session 4, the 2D object detection papers will be studied. At the same time, an interesting and more challenge related to the 2D image procession or computer vision will be discussed in session 5 which is the 2D object semantic segmentation. In the rest part of this article, the similar tasks in 3D will be discussed as the final goal of this paper review is finding some possible approaches to improve the current 3D computer vision algorithms based on the state of the are 2D computer vision algorithms.\\
 
-\section{Deep Learning Theory}
+\part{Deep Learning Theory}
 \subsection{Approximation with Artificial Neural Networks \cite{csaji2001}}
 In order to build the mathematical theory of the artificial neural networks, several papers are published in the 20 century. In this paper one main contribution is the universal approximation theorem with proof. The universal approximation theorem claims \cite{csaji2001}  that the standard multilayer feed-forward networks with a single hidden layer that contains finite number of hidden neurons, and with arbitrary activation function are universal approximators in $C(R^m)$.  The universal approximation theorem is one of the important theoretical support for the artificial neural networks. However, at that time as the huge size labeled data sets are not available, the updated algorithms haven't been invented and also the limited computation power, these ideas can not be verified.
 
@@ -96,7 +123,7 @@ The main contribution of this paper as shown in Figure \ref{fig:bp} is it greatl
 
 %\cite{Schmidhuber201585}
 
-\section{Object Classification for 2D Images}
+\part{Object Classification for 2D Images}
 \subsection{Backpropagation applied to handwritten zip code recognition\cite{doi:10.1162/neco.1989.1.4.541}}
 The first important application of using the BP(Back Propagation) to well resolve the real life problem from the literature. From this paper, one important structure of the neural network as show in Figure \ref{fig:bpzip} including the layers with filters were introduced. The similar structure is used in the modern neural network structures such as Alex Net\cite{NIPS2012_4824}, VGG 16  \cite{SimonyanZ14a} and resnet \cite{DBLP:journals/corr/HeZRS15}. The basic idea of the convolutional neural network was also introduced here.\\
 

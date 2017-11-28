@@ -4,45 +4,45 @@ The top-level auxiliary file: A survey of Object Classification and Detection ba
 The style file: ieeetr.bst
 Database file #1: jimmy_shen.bib
 Warning--empty journal in csaji2001
-You've used 20 entries,
+You've used 21 entries,
             1876 wiz_defined-function locations,
-            599 strings with 7477 characters,
-and the built_in function-call counts, 4529 in all, are:
-= -- 388
-> -- 247
+            604 strings with 7631 characters,
+and the built_in function-call counts, 4678 in all, are:
+= -- 400
+> -- 255
 < -- 0
-+ -- 90
-- -- 70
-* -- 339
-:= -- 697
-add.period$ -- 22
-call.type$ -- 20
-change.case$ -- 18
++ -- 93
+- -- 72
+* -- 348
+:= -- 722
+add.period$ -- 23
+call.type$ -- 21
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 232
-empty$ -- 445
-format.name$ -- 70
-if$ -- 1068
+cite$ -- 22
+duplicate$ -- 241
+empty$ -- 462
+format.name$ -- 72
+if$ -- 1103
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 18
-newline$ -- 65
-num.names$ -- 22
-pop$ -- 82
+int.to.str$ -- 21
+missing$ -- 19
+newline$ -- 68
+num.names$ -- 23
+pop$ -- 86
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 107
+skip$ -- 109
 stack$ -- 0
 substring$ -- 184
-swap$ -- 65
+swap$ -- 66
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 36
-width$ -- 22
-write$ -- 179
+while$ -- 37
+width$ -- 23
+write$ -- 187
 (There was 1 warning)
