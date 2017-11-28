@@ -160,82 +160,92 @@ The main contribution of this paper as shown in Figure \ref{fig:bp} is it greatl
 
 %\cite{Schmidhuber201585}
  
- 
- 
- 
+  
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
 \section{Object Detection}
+In the object detection research area, just like in the image classification where the imagenet dataset is available to train the algorithm, in the object detection, COCO(Common Objects in Context)\cite{DBLP:journals/corr/LinMBHPRDZ14} and VOC dataset can be used to train the algorithms. For the COCO dataset, the bounding box and the mask of the objects are provided. Then the algorithm can use those info to be trained. The first important contribution of using the deep neural network to resolve the object detecgtion problem is the R-CNN\cite{DBLP:journals/corr/GirshickDDM13}. From this paper, the interesting region of an image is proposed by the selective search algorithm, and then the object detection problem is changed to the object detection problem. However, as every proposaled interesting area will be calculated to predict whether that specified region is an object, the speed of this algorithm is very slow. In order to address this problem, a fast R-CNN algortihm is proposed in \cite{DBLP:conf/iccv/Girshick15} by improving the feature map generation efficiency. In another paper which is short for faster RCNN\cite{DBLP:conf/nips/RenHGS15}, instead of using the SS algorithmto generate the region of interesting(ROI), the ROI is proposed by using the deep neural network structure. By the combination, the performance of the algorithm can also be improved.\\
+Another import paper for the object detection is YOLO\cite{DBLP:journals/corr/RedmonDGF15}\cite{DBLP:journals/corr/RedmonF16}. For the YOLO algorithm, the speed of detection is faster than the RCNN approach, however, the performance is slightly reduced. \\
+In the year of 2017, the FPN\cite{DBLP:journals/corr/LinDGHHB16} is used to do the object detection. The basic idea for this network structure is combing different sized network together to boost the performance.\\
 
-\subsection{Microsoft COCO: Common Objects in Context \cite{DBLP:journals/corr/LinMBHPRDZ14} }
-\subsection{Rich feature hierarchies for accurate object detection and semantic
-               segmentation\cite{DBLP:journals/corr/GirshickDDM13}}
-\subsection{Fast R-CNN\cite{DBLP:conf/iccv/Girshick15}}
-\subsection{Faster R-CNN: Towards Real-Time Object Detection with Region Proposal
-               Networks\cite{DBLP:conf/nips/RenHGS15}}
-\subsection{You Only Look Once: Unified, Real-Time Object Detection\cite{DBLP:journals/corr/RedmonDGF15}}
-\subsection{YOLO9000: Better, Faster, Stronger\cite{DBLP:journals/corr/RedmonF16}}
+
+
+
+%\subsection{Microsoft COCO: Common Objects in Context  }
+%\subsection{Rich feature hierarchies for accurate object detection and semantic
+%               segmentation\cite{DBLP:journals/corr/GirshickDDM13}}
+%\subsection{Fast R-CNN\cite{DBLP:conf/iccv/Girshick15}}
+%\subsection{Faster R-CNN: Towards Real-Time Object Detection with Region Proposal
+   %            Networks\cite{DBLP:conf/nips/RenHGS15}}%
+%\subsection{You Only Look Once: Unified, Real-Time Object Detection\cite{DBLP:journals/corr/RedmonDGF15}}
+%\subsection{YOLO9000: Better, Faster, Stronger\cite{DBLP:journals/corr/RedmonF16}}
 
 
 \section{Semantic Segmentation}
-FCN, deep lab, FCIS, CRF, mask-RCNN
+For the semantic segmentation, a pixel level detection of an object is provied. One important paper in this area is FCN\cite{DBLP:journals/corr/ShelhamerLD16}. It upsampled the feature map to make sure a more accurate location info can be preserved, also the data in the previous layers are combined with the deeper layer to preserve more info to help improve the accuracy of the semantic segmentation. After this paper, the FCN becomes the mainstream in the semantic segmentation.  DeepLab\cite{DBLP:journals/corr/ChenPK0Y16}, FCIS\cite{DBLP:journals/corr/LiQDJW16} and mask-RCNN\cite{DBLP:journals/corr/HeGDG17} are using the structure based on the FCN. For the DeepLab\cite{DBLP:journals/corr/ChenPK0Y16}, the CRF is used to further improve the result by taking benefit of the redundance info of nearby pixels. The CRF approach is firstly introduced in the paper\cite{DBLP:journals/corr/ZhengJRVSDHT15}.For the FCIS\cite{DBLP:journals/corr/LiQDJW16}, location sensitive feature maps are generated to improve the pixel level prediction. The FCIS\cite{DBLP:journals/corr/LiQDJW16} is the improved version of the \cite{DBLP:journals/corr/DaiLHS16} where the region info is used. So far, the FCN and the CRF approach become the standard method in the semantic segmentation area. Besides those papers, \cite{DBLP:journals/corr/HariharanAGM14a}\cite{DBLP:journals/corr/PinheiroCD15} are also using the deep neural network approach to improve the performance of the semantic segmentation.\\
+
 
 \part{Algorithms developed based on 3D Images}
-\section{Image Classification}
- 
-\cite{DBLP:journals/corr/ChenMWLX16} Multi-View 3D Object Detection Network for Autonomous Driving
+\section{Image Classification and Object Detection}
+Before the Deep Leaning era, some online algorithms were used to do the object detection in the real time. In\cite{stamoscnn} the object is detected by collect the histogram of the angles of an object. And the cusum technolog is used to do the online detection.\\
+%stomas 
 
-\cite{Ge_2017_CVPR} 3D Convolutional Neural Networks for Efficient and Robust Hand Pose Estimation From Single Depth Images
-
-\cite{Geiger2013IJRR} KITTI 
-
-\cite{Chabot_2017_CVPR} 
-Deep MANTA: A Coarse-To-Fine Many-Task Network for Joint 2D and 3D Vehicle Analysis From Monocular Image
-
-\cite{DBLP:journals/corr/ShelhamerLD16} FCN
+%online algo
 
 
-DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs
-
-\cite{DBLP:journals/corr/ChenPK0Y16}
-
-
-\cite{DBLP:journals/corr/LiQDJW16} FCIS
-
-mask rcnn
-
-\cite{DBLP:journals/corr/HeGDG17}
-
-stomas 
-
-online algo
-
-\cite{stamoscnn}
 	
-indoor nyu deptch allan ref 3
+%indoor nyu deptch allan ref 3
 
-\cite{DBLP:journals/corr/abs-1301-3572}
+
+
+For the 2D images, one import data set is KITTI\cite{Geiger2013IJRR}. The depth info is provided to give more info about the object.In \cite{DBLP:journals/corr/ChenMWLX16} is a paper to combine the 2D and 3D database info together to reconstruct the 3D model of one object. For the Hand Pose Estimation from the depth images paper\cite{Ge_2017_CVPR}, the 3D CNN network is built to boost the performance of the algorithm. In \cite{DBLP:journals/corr/abs-1301-3572}, the depth info is also used to boost the performance of the network.  Multi-View 3D Object Detection Network for Autonomous Driving \cite{Chabot_2017_CVPR}, the 3D CNN is used on the 3D cloud data and the 2D CNN is used on the image data. Finally, the 2D and 3D are combined together to further improve the results.
+
+
+
+
+ 
+%Multi-View 3D Object Detection Network for Autonomous Driving
+
+%\cite{Ge_2017_CVPR} 3D Convolutional Neural Networks for Efficient and Robust Hand Pose Estimation From Single Depth Images
+
+%\cite{Geiger2013IJRR} KITTI 
+
+
+%Deep MANTA: A Coarse-To-Fine Many-Task Network for Joint 2D and 3D Vehicle Analysis From Monocular Image
+
+% FCN
+
+
+%DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs
+
+%\cite{DBLP:journals/corr/ChenPK0Y16}
+
+
+%\cite{DBLP:journals/corr/LiQDJW16} FCIS
+
+%mask rcnn
+
+%\cite{DBLP:journals/corr/HeGDG17}
+
 
  
  
  %%%%%%%%%%%%%%%%%%%%%%%%%%
  
- deep mask
+% deep mask
 
 
-\cite{DBLP:journals/corr/PinheiroCD15}
+%\cite{DBLP:journals/corr/PinheiroCD15}
 
 
-crf RNN \cite{DBLP:journals/corr/ZhengJRVSDHT15}
+%crf RNN \cite{DBLP:journals/corr/ZhengJRVSDHT15}
 
-hypper column
-\cite{DBLP:journals/corr/HariharanAGM14a}
+%hypper column
+%\cite{DBLP:journals/corr/HariharanAGM14a}\cite{DBLP:journals/corr/PinheiroCD15}
 
-\cite{DBLP:journals/corr/LinDGHHB16}  FPN
 
-\cite{DBLP:journals/corr/DaiLHS16}
+
+
  
  
  
