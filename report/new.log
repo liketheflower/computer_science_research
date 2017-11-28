@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.27)  28 NOV 2017 03:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.27)  28 NOV 2017 03:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"A survey of Object Classification and Detection based on the 3D data.tex"
-(./A survey of Object Classification and Detection based on the 3D data.tex
+**new.tex
+(./new.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -252,9 +252,8 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count112
 \c@affil=\count113
 )
-(./A survey of Object Classification and Detection based on the 3D data.aux)
-\openout1 = `"A survey of Object Classification and Detection based on the 3D d
-ata.aux"'.
+No file new.aux.
+\openout1 = `new.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -268,7 +267,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
@@ -335,6 +333,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
  []
 
 
+LaTeX Warning: Citation `Rosenblatt' on page 1 undefined on input line 45.
+
+
+LaTeX Warning: Citation `Minsky' on page 1 undefined on input line 45.
+
+
+LaTeX Warning: Citation `ann' on page 1 undefined on input line 46.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 44--49
 
  []
@@ -346,6 +353,16 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
+
+LaTeX Warning: Reference `fig:lidar' on page 2 undefined on input line 54.
+
+
+LaTeX Warning: Reference `fig:kinect' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Reference `fig:fetch' on page 2 undefined on input line 55.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 51--56
 
  []
@@ -355,17 +372,29 @@ File: cnn.jpg Graphic file (type jpg)
  <use cnn.jpg>
 Package pdftex.def Info: cnn.jpg used on input line 63.
 (pdftex.def)             Requested size: 376.5078pt x 206.03035pt.
- [3]
-<Kinect2-deepmap.png, id=18, 220.825pt x 177.66376pt>
+
+
+LaTeX Warning: Citation `allancnn' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `allancnn' on page 3 undefined on input line 65.
+
+[3] <Kinect2-deepmap.png, id=18, 220.825pt x 177.66376pt>
 File: Kinect2-deepmap.png Graphic file (type png)
 
 <use Kinect2-deepmap.png>
 Package pdftex.def Info: Kinect2-deepmap.png used on input line 72.
 (pdftex.def)             Requested size: 198.74065pt x 159.89589pt.
- <rviz.png, id=20, 947.54pt x 508.90125pt>
-File: rviz.png Graphic file (type png)
 
-<use rviz.png>
+
+LaTeX Warning: Citation `kinect' on page 4 undefined on input line 74.
+
+
+LaTeX Warning: Citation `kinect' on page 4 undefined on input line 74.
+
+<rviz.png, id=20, 947.54pt x 508.90125pt>
+File: rviz.png Graphic file (type png)
+ <use rviz.png>
 Package pdftex.def Info: rviz.png used on input line 82.
 (pdftex.def)             Requested size: 379.00928pt x 203.55688pt.
  [4 <./cnn.jpg> <./Kinect2-deepmap.png>]
@@ -374,8 +403,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--95
  []
 
 [5 <./rviz.png>]
+
+LaTeX Warning: Citation `csaji2001' on page 6 undefined on input line 98.
+
+
+LaTeX Warning: Citation `csaji2001' on page 6 undefined on input line 98.
+
 LaTeX Font Info:    Try loading font information for U+msa on input line 98.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 98.
@@ -388,6 +423,32 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 98.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+
+LaTeX Warning: Citation `hornik1991' on page 6 undefined on input line 99.
+
+
+LaTeX Warning: Citation `SimonyanZ14a' on page 6 undefined on input line 99.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/HeZRS15' on page 6 undefined on inp
+ut line 99.
+
+
+LaTeX Warning: Citation `Rumelhart1986' on page 6 undefined on input line 100.
+
+
+LaTeX Warning: Reference `fig:bpzip' on page 6 undefined on input line 105.
+
+
+LaTeX Warning: Citation `NIPS2012_4824' on page 6 undefined on input line 105.
+
+
+LaTeX Warning: Citation `SimonyanZ14a' on page 6 undefined on input line 105.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/HeZRS15' on page 6 undefined on inp
+ut line 105.
+
 <bpzip.png, id=28, 507.8975pt x 449.68pt>
 File: bpzip.png Graphic file (type png)
  <use bpzip.png>
@@ -398,13 +459,27 @@ Overfull \hbox (16.31856pt too wide) in paragraph at lines 108--109
  [] 
  []
 
+
+LaTeX Warning: Citation `doi:10.1162/neco.1989.1.4.541' on page 6 undefined on 
+input line 110.
+
 [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
- []
+LaTeX Warning: Citation `imagenet_cvpr09' on page 8 undefined on input line 113
+.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+LaTeX Warning: Citation `NIPS2012_4824' on page 8 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:alexnet' on page 8 undefined on input line 114.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1207-0580' on page 8 undefined 
+on input line 114.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
@@ -412,107 +487,170 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 File: alexnet.png Graphic file (type png)
 
 <use alexnet.png>
-Package pdftex.def Info: alexnet.png used on input line 120.
+Package pdftex.def Info: alexnet.png used on input line 119.
 (pdftex.def)             Requested size: 405.7672pt x 133.59952pt.
 
-Overfull \hbox (15.7672pt too wide) in paragraph at lines 120--121
+Overfull \hbox (15.7672pt too wide) in paragraph at lines 119--120
  [] 
  []
+
+
+LaTeX Warning: Citation `NIPS2012_4824' on page 9 undefined on input line 121.
+
+
+LaTeX Warning: Citation `NIPS2012_4824' on page 9 undefined on input line 121.
+
+
+LaTeX Warning: Citation `NIPS2012_4824' on page 9 undefined on input line 125.
+
+
+LaTeX Warning: Citation `NIPS2012_4824' on page 9 undefined on input line 125.
+
+
+LaTeX Warning: Citation `SimonyanZ14a' on page 9 undefined on input line 125.
+
+
+LaTeX Warning: Citation `imagenet_cvpr09' on page 9 undefined on input line 125
+.
+
+
+LaTeX Warning: Citation `imagenet_cvpr09' on page 9 undefined on input line 125
+.
 
 <vgg16.png, id=43, 526.96875pt x 533.995pt>
 File: vgg16.png Graphic file (type png)
  <use vgg16.png>
-Package pdftex.def Info: vgg16.png used on input line 130.
+Package pdftex.def Info: vgg16.png used on input line 129.
 (pdftex.def)             Requested size: 395.22559pt x 400.49527pt.
 
-Overfull \hbox (5.22559pt too wide) in paragraph at lines 130--131
+Overfull \hbox (5.22559pt too wide) in paragraph at lines 129--130
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--134
+Underfull \hbox (badness 10000) in paragraph at lines 125--133
 
  []
 
-[9 <./alexnet.png>] <renet1.png, id=48, 751.80875pt x 291.0875pt>
-File: renet1.png Graphic file (type png)
+[9 <./alexnet.png>]
 
-<use renet1.png>
-Package pdftex.def Info: renet1.png used on input line 140.
+LaTeX Warning: Citation `DBLP:journals/corr/HeZRS15' on page 10 undefined on in
+put line 136.
+
+
+LaTeX Warning: Reference `fig:resnet' on page 10 undefined on input line 136.
+
+
+LaTeX Warning: Citation `SimonyanZ14a' on page 10 undefined on input line 136.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/HeZRS15' on page 10 undefined on in
+put line 136.
+
+<renet1.png, id=48, 751.80875pt x 291.0875pt>
+File: renet1.png Graphic file (type png)
+ <use renet1.png>
+Package pdftex.def Info: renet1.png used on input line 139.
 (pdftex.def)             Requested size: 375.90344pt x 145.54338pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--144
+Underfull \hbox (badness 10000) in paragraph at lines 136--143
 
  []
 
-[10 <./vgg16.png>] <bn.png, id=53, 608.2725pt x 191.71625pt>
+[10 <./vgg16.png>]
+
+LaTeX Warning: Citation `DBLP:journals/corr/IoffeS15' on page 11 undefined on i
+nput line 152.
+
+
+Overfull \hbox (5.61621pt too wide) in paragraph at lines 152--152
+|\OT1/cmr/bx/n/14.4 Batch Nor-mal-iza-tion: Ac-cel-er-at-ing Deep Net-work Trai
+n-
+ []
+
+
+LaTeX Warning: Reference `fig:bp' on page 11 undefined on input line 153.
+
+<bn.png, id=53, 608.2725pt x 191.71625pt>
 File: bn.png Graphic file (type png)
  <use bn.png>
-Package pdftex.def Info: bn.png used on input line 151.
+Package pdftex.def Info: bn.png used on input line 156.
 (pdftex.def)             Requested size: 364.96632pt x 115.03062pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
+
+LaTeX Warning: Citation `DBLP:journals/corr/IoffeS15' on page 11 undefined on i
+nput line 158.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/IoffeS15' on page 11 undefined on i
+nput line 158.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/IoffeS15' on page 11 undefined on i
+nput line 158.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/IoffeS15' on page 11 undefined on i
+nput line 158.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--160
 
  []
 
-[11 <./renet1.png>] [12 <./bn.png>]
-(./A survey of Object Classification and Detection based on the 3D data.bbl
-[13]
-Missing character: There is no á in font cmr12!
+[11 <./renet1.png>]
 
-Underfull \hbox (badness 1742) in paragraph at lines 59--62
-[]\OT1/cmr/m/n/12 G. E. Hin-ton, N. Sri-vas-tava, A. Krizhevsky, I. Sutskever, 
-and
- []
+LaTeX Warning: Citation `DBLP:journals/corr/LinMBHPRDZ14' on page 12 undefined 
+on input line 166.
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 59--62
-\OT1/cmr/m/n/12 R. Salakhut-di-nov, ``Im-prov-ing neu-ral net-works by pre-vent
--ing co-
- []
+LaTeX Warning: Citation `DBLP:journals/corr/GirshickDDM13' on page 12 undefined
+ on input line 168.
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 64--67
-\OT1/cmr/m/n/12 net-work train-ing by re-duc-ing in-ter-nal co-vari-ate shift,'
-' \OT1/cmr/m/it/12 CoRR\OT1/cmr/m/n/12 ,
- []
+LaTeX Warning: Citation `DBLP:conf/iccv/Girshick15' on page 12 undefined on inp
+ut line 169.
 
-[14]
-Underfull \hbox (badness 2818) in paragraph at lines 92--94
-[]\OT1/cmr/m/n/12 J. Red-mon, S. K. Div-vala, R. B. Gir-shick, and A. Farhadi,
- []
 
-[15]
-Underfull \hbox (badness 1533) in paragraph at lines 125--128
-[]\OT1/cmr/m/n/12 L. Chen, G. Pa-pan-dreou, I. Kokki-nos, K. Mur-phy, and A. L.
+LaTeX Warning: Citation `DBLP:conf/nips/RenHGS15' on page 12 undefined on input
+ line 171.
 
- []
 
-) [16]
-(./A survey of Object Classification and Detection based on the 3D data.aux) ) 
+LaTeX Warning: Citation `DBLP:journals/corr/RedmonDGF15' on page 12 undefined o
+n input line 172.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/RedmonF16' on page 12 undefined on 
+input line 173.
+
+No file new.bbl.
+[12 <./bn.png>] (./new.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4354 strings out of 493029
- 61357 string characters out of 6136233
- 132395 words of memory out of 5000000
- 7786 multiletter control sequences out of 15000+600000
- 11720 words of font info for 45 fonts, out of 8000000 for 9000
+ 4332 strings out of 493029
+ 60178 string characters out of 6136233
+ 132193 words of memory out of 5000000
+ 7770 multiletter control sequences out of 15000+600000
+ 11511 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,33p,1842b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
-<
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt12.pfb>
-Output written on "A survey of Object Classification and Detection based on the
- 3D data.pdf" (16 pages, 1885076 bytes).
+ 38i,7n,34p,1775b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb>
+Output written on new.pdf (12 pages, 1852690 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
